@@ -1,0 +1,23 @@
+/* ==========================================================================
+   HEADER .. full width of browser window
+   ========================================================================== */
+
+/*==========  NO JS/SIMPLE BROWSER  ==========*/
+.site__header {
+	background: forestgreen url("/assets/img/bugs.png") no-repeat;
+	h1 {
+		color: #fff;
+	}
+}
+
+.branding {
+	background: url("/assets/img/logo_small_w.png") 5% 50%/125px auto no-repeat, url("/assets/img/Media_TDA_Seal.png") 95% 50%/100px auto no-repeat;
+	// padding: 1rem 0 0 12rem;
+  text-align: center;
+}
+
+.phonenumber {
+  color: #fff;
+  float: right;
+  margin: 1rem;
+}

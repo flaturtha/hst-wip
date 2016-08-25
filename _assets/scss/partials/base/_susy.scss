@@ -1,0 +1,18 @@
+/* ==========================================================================
+   SUSY GRID COMPONENTS
+   ========================================================================== */
+
+$susy: (
+  columns: 12,
+  container: 60rem,
+  gutters: 0.25,
+  global-box-sizing: border-box,
+  // debug: (image: show-columns)
+  );
+
+@include border-box-sizing;
+
+.wrap {
+  @include container();
+  height: 100vh;
+}
