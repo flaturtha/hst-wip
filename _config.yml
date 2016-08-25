@@ -1,6 +1,0 @@
-title: Home Safe
-subtitle: Termite & Pest Company
-markdown: redcarpet
-highlighter: pygments # or rouge or null
-include: ['_pages']
-exclude: ["node_modules", "gulpfile.js", "package.json"]
