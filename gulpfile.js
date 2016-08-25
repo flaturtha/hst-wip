@@ -60,6 +60,8 @@ gulp.task('watch', function () {
     gulp.watch(['*.html', '_includes/*', '_layouts/*.html', '_pages/*', '_posts/*'], ['jekyll-rebuild']);
 });
 
+
+
 /**
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
